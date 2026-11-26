@@ -1,0 +1,24 @@
+{
+  "name": "servicehub-backend",
+  "version": "1.0.0",
+  "description": "Express + MongoDB REST API for ServiceHub (AUREX Month 3 project)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node utils/seed.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.13.1",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
